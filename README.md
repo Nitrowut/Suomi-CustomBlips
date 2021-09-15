@@ -1,16 +1,17 @@
-# ToTT-Minimaps
+# FiveM Custom Blips - Suomi Teema
 
-Ersätter blips på kartan mot svenska iconer
+🛠 Requirements
+- FiveM ESX Server
 
-## Instalation
+✅ Features
+- Suomi Teema Blipsit
+- Blipsit Pause Menussa
+- Blipsit Minimapissa
 
-Lägg in ToTT-Minimaps i eran "resources" map 
-
-Starta scriptet i server.cfg "-start ToTT-Minimap"
-
-I t.ex. esx_policejob och esx_ambunlancejob måste du gå in i "client.lua" och ta bort "blip color" för att det ska fungera korrekt(Kan behöva göras i fler scripts)
-
-### Allämt
-Du har full tillåtelse att redigera dessa iconer men va snälla och behåll namnet på scriptet
-
-//ToTT 
+🔧 Download & Installation
+1. Download the files
+2. Put the Suomi-CustomBlips -folder in the server resource directory
+3. Add this to your ```Server.cfg```
+````
+ensure Suomi-CustomBlips
+````
